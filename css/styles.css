@@ -38,6 +38,11 @@ body {
     color: #111111;
 }
 
+.section-paddings {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .accent-color {
     color: #fd9222;
 }
@@ -184,10 +189,27 @@ align-items: center;
 
 
 /* =========== Our benefits ========= */
+.benefits-section {
+    background-color: #1e1823;
+    margin-top: 72px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.benefits-container {
+   padding: 50px;
+}
+.benefits-list {
+    display: flex;
+    column-gap: 70px;
 
+}
+.benefits-list-item {
+    width: calc((100% - 2 * 70px) / 3);
+}
 .benefits-list-title {
     font-weight: 600;
     font-size: 18px;
+    margin-bottom: 18px;
 }
 .benefits-list-text {
     font-weight: 400;
